@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ## ▶️ How to Run
 
-uvicorn app.main:app --reload\
+uvicorn app.main:app --reload
 Then visit:
 http://127.0.0.1:8000/docs to access the interactive Swagger UI.
 
