@@ -15,3 +15,29 @@ Install dependencies using:
 
 ```bash
 pip install -r requirements.txt
+
+## ▶️ How to Run
+
+uvicorn app.main:app --reload\
+Then visit:
+http://127.0.0.1:8000/docs to access the interactive Swagger UI.
+
+## 📬 API Endpoint
+Input JSON:
+{
+  "sepal_length": 5.1,
+  "sepal_width": 3.5,
+  "petal_length": 1.4,
+  "petal_width": 0.2
+}
+
+📁 Project Structure
+iris-fastapi-app/
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── model.py
+│   ├── schemas.py
+│   └── iris_model.pkl
+├── requirements.txt
+└── README.md
