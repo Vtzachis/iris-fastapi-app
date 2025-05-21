@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from app import schemas
-from app.model import model  # just import the loaded model, no need to reload
+from app.model import model  
 
 app = FastAPI()
 
